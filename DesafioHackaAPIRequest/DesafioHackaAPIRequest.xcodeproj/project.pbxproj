@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF5A1262AB0951200CAAC33 /* DesafioHackaAPIRequestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A1252AB0951200CAAC33 /* DesafioHackaAPIRequestApp.swift */; };
+		BBF5A1282AB0951200CAAC33 /* AnimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A1272AB0951200CAAC33 /* AnimeListView.swift */; };
+		BBF5A12A2AB0951300CAAC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF5A1292AB0951300CAAC33 /* Assets.xcassets */; };
+		BBF5A12D2AB0951300CAAC33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF5A12C2AB0951300CAAC33 /* Preview Assets.xcassets */; };
+		BBF5A1392AB0958700CAAC33 /* AnimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A1382AB0958700CAAC33 /* AnimeData.swift */; };
+		BBF5A13C2AB0959C00CAAC33 /* AnimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A13B2AB0959C00CAAC33 /* AnimeInfo.swift */; };
+		BBF5A13E2AB0966B00CAAC33 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A13D2AB0966B00CAAC33 /* ImageData.swift */; };
+		BBF5A1402AB096E000CAAC33 /* JPGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A13F2AB096E000CAAC33 /* JPGData.swift */; };
+		BBF5A1422AB097BF00CAAC33 /* AnimeDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A1412AB097BF00CAAC33 /* AnimeDataViewModel.swift */; };
+		BBF5A1442AB0A32000CAAC33 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5A1432AB0A32000CAAC33 /* AnimeDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBF5A1222AB0951200CAAC33 /* DesafioHackaAPIRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioHackaAPIRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF5A1252AB0951200CAAC33 /* DesafioHackaAPIRequestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioHackaAPIRequestApp.swift; sourceTree = "<group>"; };
+		BBF5A1272AB0951200CAAC33 /* AnimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListView.swift; sourceTree = "<group>"; };
+		BBF5A1292AB0951300CAAC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF5A12C2AB0951300CAAC33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBF5A1382AB0958700CAAC33 /* AnimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeData.swift; sourceTree = "<group>"; };
+		BBF5A13B2AB0959C00CAAC33 /* AnimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeInfo.swift; sourceTree = "<group>"; };
+		BBF5A13D2AB0966B00CAAC33 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		BBF5A13F2AB096E000CAAC33 /* JPGData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPGData.swift; sourceTree = "<group>"; };
+		BBF5A1412AB097BF00CAAC33 /* AnimeDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDataViewModel.swift; sourceTree = "<group>"; };
+		BBF5A1432AB0A32000CAAC33 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF5A11F2AB0951200CAAC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF5A1192AB0951200CAAC33 = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1242AB0951200CAAC33 /* DesafioHackaAPIRequest */,
+				BBF5A1232AB0951200CAAC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF5A1232AB0951200CAAC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1222AB0951200CAAC33 /* DesafioHackaAPIRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF5A1242AB0951200CAAC33 /* DesafioHackaAPIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1332AB0952900CAAC33 /* Model */,
+				BBF5A1342AB0952E00CAAC33 /* View */,
+				BBF5A1352AB0953300CAAC33 /* ViewModel */,
+				BBF5A1372AB0955B00CAAC33 /* Resource */,
+				BBF5A1362AB0954300CAAC33 /* Supporting */,
+				BBF5A12B2AB0951300CAAC33 /* Preview Content */,
+			);
+			path = DesafioHackaAPIRequest;
+			sourceTree = "<group>";
+		};
+		BBF5A12B2AB0951300CAAC33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A12C2AB0951300CAAC33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBF5A1332AB0952900CAAC33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1382AB0958700CAAC33 /* AnimeData.swift */,
+				BBF5A13B2AB0959C00CAAC33 /* AnimeInfo.swift */,
+				BBF5A13D2AB0966B00CAAC33 /* ImageData.swift */,
+				BBF5A13F2AB096E000CAAC33 /* JPGData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBF5A1342AB0952E00CAAC33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1272AB0951200CAAC33 /* AnimeListView.swift */,
+				BBF5A1432AB0A32000CAAC33 /* AnimeDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBF5A1352AB0953300CAAC33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1412AB097BF00CAAC33 /* AnimeDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BBF5A1362AB0954300CAAC33 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1252AB0951200CAAC33 /* DesafioHackaAPIRequestApp.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BBF5A1372AB0955B00CAAC33 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5A1292AB0951300CAAC33 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF5A1212AB0951200CAAC33 /* DesafioHackaAPIRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF5A1302AB0951300CAAC33 /* Build configuration list for PBXNativeTarget "DesafioHackaAPIRequest" */;
+			buildPhases = (
+				BBF5A11E2AB0951200CAAC33 /* Sources */,
+				BBF5A11F2AB0951200CAAC33 /* Frameworks */,
+				BBF5A1202AB0951200CAAC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioHackaAPIRequest;
+			productName = DesafioHackaAPIRequest;
+			productReference = BBF5A1222AB0951200CAAC33 /* DesafioHackaAPIRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF5A11A2AB0951200CAAC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BBF5A1212AB0951200CAAC33 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BBF5A11D2AB0951200CAAC33 /* Build configuration list for PBXProject "DesafioHackaAPIRequest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF5A1192AB0951200CAAC33;
+			productRefGroup = BBF5A1232AB0951200CAAC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF5A1212AB0951200CAAC33 /* DesafioHackaAPIRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF5A1202AB0951200CAAC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF5A12D2AB0951300CAAC33 /* Preview Assets.xcassets in Resources */,
+				BBF5A12A2AB0951300CAAC33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF5A11E2AB0951200CAAC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF5A1442AB0A32000CAAC33 /* AnimeDetailView.swift in Sources */,
+				BBF5A13C2AB0959C00CAAC33 /* AnimeInfo.swift in Sources */,
+				BBF5A1402AB096E000CAAC33 /* JPGData.swift in Sources */,
+				BBF5A1282AB0951200CAAC33 /* AnimeListView.swift in Sources */,
+				BBF5A1392AB0958700CAAC33 /* AnimeData.swift in Sources */,
+				BBF5A1262AB0951200CAAC33 /* DesafioHackaAPIRequestApp.swift in Sources */,
+				BBF5A13E2AB0966B00CAAC33 /* ImageData.swift in Sources */,
+				BBF5A1422AB097BF00CAAC33 /* AnimeDataViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBF5A12E2AB0951300CAAC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF5A12F2AB0951300CAAC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF5A1312AB0951300CAAC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioHackaAPIRequest/Preview Content\"";
+				DEVELOPMENT_TEAM = UFS93RKF34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phsouza.DesafioHackaAPIRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF5A1322AB0951300CAAC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioHackaAPIRequest/Preview Content\"";
+				DEVELOPMENT_TEAM = UFS93RKF34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phsouza.DesafioHackaAPIRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF5A11D2AB0951200CAAC33 /* Build configuration list for PBXProject "DesafioHackaAPIRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF5A12E2AB0951300CAAC33 /* Debug */,
+				BBF5A12F2AB0951300CAAC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF5A1302AB0951300CAAC33 /* Build configuration list for PBXNativeTarget "DesafioHackaAPIRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF5A1312AB0951300CAAC33 /* Debug */,
+				BBF5A1322AB0951300CAAC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF5A11A2AB0951200CAAC33 /* Project object */;
+}
